@@ -66,8 +66,8 @@ module "eks" {
 
   aws_auth_users = [
       {
-		# Replace XXXX with username that you want to add it to kubernetes.
-		# Replace eks-user with name of username that you want to add it to kubernetes.
+	# Replace XXXX with username that you want to add it to kubernetes.
+	# Replace eks-user with name of username that you want to add it to kubernetes.
         userarn  = "arn:aws:iam::XXXXXXXXXX:user/eks-user"
         username = "eks-iser"
         groups   = ["system:masters"]
