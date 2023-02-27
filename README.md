@@ -65,6 +65,10 @@ helm install aws-load-balancer-controller eks/aws-load-balancer-controller \
   --set serviceAccount.create=false \
   --set serviceAccount.name=aws-load-balancer-controller 
 ```
+Create NameSpace
+```bash
+kubectl create namespace nlb-sample-app
+```
 Deploy Simple App
 ```bash
 kubectl apply -f sample-deployment.yaml
