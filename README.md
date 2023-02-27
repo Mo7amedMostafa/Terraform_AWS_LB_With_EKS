@@ -1,6 +1,6 @@
 
 # Terrafom 
-# Aws Eks Cluster & Load Balancer 
+# aws eks cluster & load balancer 
 
 
 
