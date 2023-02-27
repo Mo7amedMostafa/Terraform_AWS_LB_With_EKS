@@ -1,9 +1,18 @@
 
 # Terrafom 
-# AWS Load Balancer with EKS Cluster
+# AWS EKS Cluster with Load Balancer 
 
 
 
+## Build EKS Cluster
+
+```bash
+terraform init
+
+terraform plan
+
+terraform apply
+```
 
 ## Installation
 
